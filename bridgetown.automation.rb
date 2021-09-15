@@ -2,7 +2,7 @@
 # automation :)
 
 add_bridgetown_plugin "bulmatown"
-add_bridgetown_plugin "bridgetown-quick-search"
+# add_bridgetown_plugin "bridgetown-quick-search"
 
 # 0.15 bug! :( can't use this:
 #add_yarn_for_gem "bulmatown"
@@ -35,8 +35,8 @@ ROOT_PATH = if __FILE__ =~ %r{\Ahttps?://}
 
 DIR_NAME = File.basename(ROOT_PATH)
 
-# DIR_NAME = 'bulmtatown'
-GITHUB_PATH = "https://github.com/whitefusionhq/#{DIR_NAME}.git"
+#DIR_NAME = 'bulmatown'
+GITHUB_PATH = "https://github.com/bwghughes/#{DIR_NAME}.git"
 
 # Copied from: https://github.com/mattbrictson/rails-template
 # Add this template directory to source_paths so that Thor actions like
