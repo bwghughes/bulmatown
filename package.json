@@ -16,7 +16,6 @@
     "frontend"
   ],
   "dependencies": {
-    "bridgetown-quick-search": "^1.0.3",
     "bulma": "^0.9",
     "fork-awesome": "^1.1.7"
   }
